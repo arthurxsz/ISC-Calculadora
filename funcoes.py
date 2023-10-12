@@ -54,7 +54,7 @@ def converte_fracionario(num, base_num, precisao, base_destino):
     parte_fracionaria = ''
 
     while precisao > 0:
-        expressao = f"('{num[1]}',{base_num}) * ('{base_destino}',{base_num})"
+        expressao = converte(num[1], base_num, 10)+ f" * ('{base_destino}',10)"
         decimal = resultado_expressao(expressao, base_num)
         parte_fracionaria += converte(decimal[:-(len(num[1]))], base_num, base_destino) if converte(decimal[:-(len(num[1]))], base_num, base_destino) != '' else '0'
 
