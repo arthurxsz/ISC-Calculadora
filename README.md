@@ -1,4 +1,4 @@
-# ISC cheat toolkit 3000
+# ISC Calculadora
 Ferramentas para ajudar na resolução de problemas da disciplina de Introdução aos Sistemas Computacionais
 
 Funções presentes:
